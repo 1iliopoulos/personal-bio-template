@@ -20,4 +20,3 @@ You can view the live demo after deploying it to GitHub Pages:
 
 ---
 
-## 📂 Project Structure
