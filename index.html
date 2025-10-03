@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="generator" content="Astro v4.1.1">
+    <title>[Your Name]</title>
+    <link rel="icon" type="image/x-icon" href="[your logo svg]">
+</head>
+    
+    <style>
+        main {
+            margin: auto;
+            padding: 4rem 1rem;
+            width: 700px;
+            max-width: calc(100% - 2rem);
+            font-size: 1.6rem;
+            line-height: 1.6;
+            color: rgb(var(--ink));
+            text-transform: lowercase;
+        }
+        
+        @media (max-width: 700px) {
+            main { padding: 3rem 25px 1rem; font-size: 1.2rem; }
+        }
+        
+        @media (max-width: 500px) {
+            main { max-width: 100%; }
+        }
+        
+        h1 {
+            font-size: 4rem;
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 1em;
+        }
+        
+        @media (max-width: 800px) { h1 { font-size: 3rem; } }
+        @media (max-width: 600px) { h1 { font-size: 2.5rem; } }
+        @media (max-width: 500px) { h1 { font-size: 2rem; } }
+        
+        a {
+            color: white;
+            text-decoration: none;
+            position: relative;
+        }
+        
+        a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            width: 100%;
+            height: 2px;
+            background: currentColor;
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        a:hover::after {
+            opacity: 0;
+        }
+
+        .legal {
+            padding-top: 4rem;
+            opacity: 0.3;
+        }
+        
+        @font-face {
+            font-family: apercu;
+            src: url(/apercu.woff2) format("woff2");
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        :root {
+            --ink: 255, 255, 255;
+            --paper: 0, 0, 0;
+            --font: 'Times New Roman', Times, serif;
+        }
+        
+        html {
+            font-family: var(--font);
+            background: rgb(var(--paper));
+        }
+        
+        body {
+            margin: 0;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body::-webkit-scrollbar {
+            width: 0px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>A passionate developer and creator of digital solutions.</h1>
+
+        <p>Hello! My name is <strong>[Your Name]</strong>, and I am a web developer specializing in modern website and application development.  
+        I have experience with <strong>[HTML, CSS, JavaScript, PHP, SQL, CMS, Web Design]</strong> and I enjoy creating clean, functional, and user-friendly digital solutions.</p>
+
+        <p>I mainly work with <strong>[Your Preferred Tools – e.g., Visual Studio Code, GitHub, Figma]</strong> to build projects that combine technical precision with creative design.</p>
+
+        <p>Beyond programming, I also have professional experience in <strong>[Your Second Profession or Background – e.g., Electrical Installations, System Administration, Networking]</strong>, which helps me merge technology with engineering in smart and efficient ways.</p>
+
+        <p>Outside of work, I am passionate about <strong>[Your Hobbies – e.g., photography, graphic design, music, writing]</strong>.  
+        This gives me a creative outlet to express myself, while also strengthening my attention to detail and aesthetics.</p>
+
+        <p>I am always eager to learn, grow, and explore new technologies, continuously expanding my knowledge in development and beyond.  
+        Open to new collaborations and challenges, I strive to apply my skills and create innovative solutions that make an impact.</p>
+
+        <p class="legal">© <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> [Your Name]</p>
+        
+    </main>
+
+
+</body>
+</html>
